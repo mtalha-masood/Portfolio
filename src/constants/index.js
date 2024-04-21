@@ -119,6 +119,21 @@ const experiences = [
       'React project using Redux.',
     ],
   },
+   {
+    title: 'Associate Software Engineer',
+    company_name: 'Mergestack',
+    icon: '',
+    iconBg: '#383E56',
+    date: 'August 2023 - Present',
+    points: [
+      'AWS',
+      'Javascript, TypeScript, Node.js, Graphql, DynamoDb',
+      'React, Tailwind CSS', 
+      'Jest for writing test cases', 
+      'Testing and debugging', 
+      'Team work and collaboration'
+    ],
+  },
 ];
 
 const testimonials = [
