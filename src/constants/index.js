@@ -200,11 +200,7 @@ const experiences = [
 
 const testimonials = [
   {
-    testimonial:
-      `I had the opportunity to work with Talha Masood during my time at Mergestack, where we collaborated on a project focused on economic development and entrepreneurship.
-As a developer, Talha demonstrated exceptional abilities in translating user stories and business requirements into executable code and took full ownership of the tasks assigned to him.
-Whether it was UI design - developing an interactive web page using ReactJS from a simple Figma design; or backend development - building the core engine using NodeJS that acted as the backbone of the product; or performance optimization - enhancing the existing infrastructure (APIs, Lambda functions) to reduce service response time; or addressing production issues - automating bug fixes through scripts or managing AWS deployment and monitoring - he handled each responsibility with diligence and expertise.
-I can confidently vouch for his expertise in software development and automation and believe he will be a valuable asset to any project he is assigned to.`,
+    testimonial:'Talha demonstrated exceptional abilities in translating user stories and business requirements into executable code',
     name: 'Ata Ul Mohsin',
     designation: '',
     company: '',

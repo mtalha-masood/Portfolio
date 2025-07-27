@@ -26,15 +26,15 @@ const FeedbackCard = ({
               <span className='blue-text-geadient'>@</span>
               {name}
             </p>
-            <p className='mt-1 text-secondary text-[12px]'>
+            {/* <p className='mt-1 text-secondary text-[12px]'>
               {designation} of {company}
-            </p>
+            </p> */}
           </div>
-          <img
+          {/* <img
             src={image}
             alt={`feedback-by-${name}`}
             className="w-10 h-10 rounded-full object-cover"
-          />
+          /> */}
         </div>
       </div>
     </motion.div>
