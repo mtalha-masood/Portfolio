@@ -17,6 +17,13 @@ import {
   covid,
   expense,
   bootcamp,
+  nest,
+  python,
+  vue,
+  m1,
+  col,
+  gid,
+  go
 } from '../assets';
 
 export const navLinks = [
@@ -55,14 +62,6 @@ const services = [
 
 const technologies = [
   {
-    name: 'HTML 5',
-    icon: html,
-  },
-  {
-    name: 'CSS 3',
-    icon: css,
-  },
-  {
     name: 'JavaScript',
     icon: javascript,
   },
@@ -83,8 +82,16 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: 'git',
-    icon: git,
+    name: 'Vue js',
+    icon: vue,
+  },
+  {
+    name: 'Nest js',
+    icon: nest,
+  },
+  {
+    name: 'Python',
+    icon: python,
   },
   {
     name: 'Tailwind CSS',
@@ -98,12 +105,12 @@ const experiences = [
     company_name: 'Interns Pakistan',
     icon: '',
     iconBg: '#383E56',
-    date: 'March 2022 - April 2022',
+    date: 'Feb 2022 - Mar 2022',
     points: [
-      'Built Responsive webpage using Flexbox and media query.',
-      'Built Covid19-Screening App for mobile (Web Application)',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'Developed responsive and mobile-first web pages using HTML5, CSS3, and JavaScript.',
+      'Created a Covid-19 Screening Web App using vanilla JavaScript.',
+      'Built production-ready front-end features with clean, maintainable code.',
+      'Collaborated remotely using agile tools like Trello and GitHub.',
     ],
   },
   {
@@ -111,27 +118,82 @@ const experiences = [
     company_name: 'DevDice',
     icon: '',
     iconBg: '#383E56',
-    date: 'April 2022 - June 2022',
+    date: 'Apr 2022 - Jul 2022',
     points: [
-      'Developing and maintaining web applications using React.js, NodeJS (Express,Nodemon, JWT, Loadash, Socket.io etc.), Postman API, Mongo dB(Mongoose, Model) and other related technologies.',
-      'Built Vanilla JavaScript web apps for practice.',
-      'Built NodeJS backend with Mongo dB for practice.',
-      'React project using Redux.',
+      'Developed JavaScript-based applications using React, Node.js, Express, and MongoDB.',
+      'Built a shopping app with React.js and Axios, applying component-based architecture.',
+      'Implemented JWT-based authentication and middleware functions.',
+      'Practiced using Git/GitHub, Swagger, Postman, ESLint, and Babel.',
     ],
   },
-   {
-    title: 'Associate Software Engineer',
+  {
+    title: 'Freelance Software Engineer',
+    company_name: 'Self-employed',
+    icon: '',
+    iconBg: '#383E56',
+    date: 'Jul 2022 - Jul 2023',
+    points: [
+      'Delivered MERN stack solutions to clients globally, automating workflows and scaling features.',
+      'Built responsive UIs with React.js and developed APIs with Node.js and MongoDB.',
+      'Managed client communication, prototyping, and deployments using Trello, Slack, and Git.',
+      'Maintained SQL-based databases and optimized queries for performance.',
+    ],
+  },
+  {
+    title: 'Associate Software Engineer (MERN)',
     company_name: 'Mergestack',
     icon: '',
     iconBg: '#383E56',
-    date: 'August 2023 - Present',
+    date: 'Apr 2023 - Apr 2024',
     points: [
-      'AWS',
-      'Javascript, TypeScript, Node.js, Graphql, DynamoDb',
-      'React, Tailwind CSS', 
-      'Jest for writing test cases', 
-      'Testing and debugging', 
-      'Team work and collaboration'
+      'Built and optimized full-stack features using React.js, Node.js, and TypeScript.',
+      'Improved API performance by 40% using DynamoDB GSI and CloudWatch.',
+      'Integrated OpenAI, LangChain, and Stable Diffusion for AI-powered features.',
+      'Wrote unit tests using Jest, improving code coverage and reducing bugs by 50%.',
+    ],
+  },
+  {
+    title: 'Software Engineer (MERN)',
+    company_name: 'Mergestack',
+    icon: '',
+    iconBg: '#383E56',
+    date: 'Apr 2024 - Feb 2025',
+    points: [
+      'Worked on M1nerals project (https://m1neral.com/) as part of full-stack engineering team.',
+      'Created reusable architecture and scalable systems with React, Node, MongoDB, Azure.',
+      'Handled form validation and state management using React Hook Form and Hookstate.',
+      'Styled responsive UIs using Material UI with performance in mind.',
+    ],
+  },
+  {
+    title: 'Full Stack Software Engineer (Lead)',
+    company_name: 'OptimaGeeks',
+    icon: '',
+    iconBg: '#383E56',
+    date: 'Feb 2025 - Present',
+    points: [
+      'Developed web scraping tools with Puppeteer and Playwright for analytics.',
+      'Built scalable apps using MERN, Next.js, NestJS, PostgreSQL (TypeORM).',
+      'Improved SQL queries and indexing, reducing API response time by 60%.',
+      'Integrated Vue.js and Python microservices with custom packages.',
+      'Wrote Cursor rule files for AI-assisted coding, improving productivity by 40%.',
+      'Improved Vue watchers and eliminated redundant API calls (30% performance gain).',
+      'Developed Chrome extensions and led 3–4 projects simultaneously.',
+      'Actively managed Agile tasks and reviewed pull requests using JIRA.',
+    ],
+  },
+  {
+    title: 'Full Stack Software Engineer (Part-time)',
+    company_name: 'Collabaway',
+    icon: '',
+    iconBg: '#383E56',
+    date: 'Apr 2025 - Present',
+    points: [
+      'Project: https://www.collabawayhq.com/',
+      'Improved team collaboration workflows, boosting user engagement by 35%.',
+      'Optimized MongoDB queries to reduce API latency by 45%.',
+      'Developed features with React, Node.js, Express, MongoDB.',
+      'Delivered customized features based on client needs.',
     ],
   },
 ];
@@ -148,6 +210,62 @@ const testimonials = [
 ];
 
 const projects = [
+   {
+    name: 'M1nerals',
+    description:
+      'Enterprise-grade mineral acquisition platform. Built scalable backend with GraphQL and optimized performance using AWS and DynamoDB.',
+    tags: [
+      { name: 'React', color: 'blue-text-gradient' },
+      { name: 'Node.js', color: 'green-text-gradient' },
+      { name: 'TypeScript', color: 'blue-text-gradient' },
+      { name: 'GraphQL', color: 'green-text-gradient' },
+      { name: 'Azure', color: 'pink-text-gradient' },
+    ],
+    image: m1, // Add relevant image
+    source_code_link: '', // Private repo, likely
+    live_link: 'https://m1neral.com/',
+  },
+  {
+    name: 'Collabaway',
+    description:
+      'Team collaboration SaaS platform. Developed full-stack features and optimized API speed by 45%.',
+    tags: [
+      { name: 'React', color: 'blue-text-gradient' },
+      { name: 'Node.js', color: 'green-text-gradient' },
+      { name: 'MongoDB', color: 'pink-text-gradient' },
+    ],
+    image: col, // Add relevant image
+    source_code_link: '', // Optional if private
+    live_link: 'https://www.collabawayhq.com/',
+  },
+  {
+    name: 'GetItDone',
+    description:
+      'Freelance marketplace built with vanilla React and Redux Toolkit. Fully responsive with modern animations.',
+    tags: [
+      { name: 'Vuejs', color: 'blue-text-gradient' },
+      { name: 'Nestjs', color: 'green-text-gradient' },
+      { name: 'python', color: 'pink-text-gradient' },
+    ],
+    image: gid, // Add relevant image
+    source_code_link: '', // Optional
+    live_link: 'https://www.getitdone.rocks/',
+  },
+  {
+    name: 'GoTackle',
+    description:
+      'Task management and collaboration app with sleek UI and real-time features.',
+    tags: [
+      { name: 'React', color: 'blue-text-gradient' },
+      { name: 'Node.js', color: 'green-text-gradient' },
+      { name: 'TypeScript', color: 'blue-text-gradient' },
+      { name: 'GraphQL', color: 'green-text-gradient' },
+      { name: 'AWS', color: 'pink-text-gradient' },
+    ],
+    image: go, // Add relevant image
+    source_code_link: '', // Optional
+    live_link: 'https://gotackle.app/',
+  },
   {
     name: 'ROSA',
     description:

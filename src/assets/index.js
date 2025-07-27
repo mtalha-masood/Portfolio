@@ -33,6 +33,15 @@ import covid from './covid.png';
 import expense from './expense.png';
 import bootcamp from './bootcamp.png';
 
+import nest from './tech/nest.png'
+import python from './tech/python.png'
+import vue from './tech/vue.png'
+
+import go from './go.png'
+import col from './col.png'
+import gid from './gid.png'
+import m1 from './m1.png'
+
 export {
   logo,
   backend,
@@ -65,4 +74,11 @@ export {
   covid,
   expense,
   bootcamp,
+  nest,
+  python,
+  gid,
+  go,
+  col,
+  m1,
+  vue
 };
